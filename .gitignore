@@ -1,0 +1,6 @@
+.DS_Store
+.conda/
+.venv/
+__pycache__/
+*.pyc
+~$*
