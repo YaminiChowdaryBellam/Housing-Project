@@ -79,7 +79,7 @@ CHART_CONFIG = {
 st.markdown(f"""
 <style>
   /* top bar */
-  .block-container {{ padding-top: 1rem; }}
+  .block-container {{ padding-top: 3rem; }}
   /* KPI cards */
   .kpi-card {{
       background: {LTBG}; border-left: 5px solid {TEAL};
@@ -318,7 +318,7 @@ consistent with national housing + supportive services research.
 
 # ── Header ────────────────────────────────────────────────────────────────────
 st.markdown(
-    f"<h2 style='color:{NAVY};margin-bottom:0;'>🏘️ Closing the Gap</h2>"
+    f"<h2 style='color:{NAVY};margin-top:0.5rem;margin-bottom:0;'>🏘️ Closing the Gap</h2>"
     f"<p style='color:{TEAL};font-size:1rem;margin-top:2px;'>"
     f"Wake County Affordable Housing Supply-Demand Scenario Modeler · Real Data</p>",
     unsafe_allow_html=True,
